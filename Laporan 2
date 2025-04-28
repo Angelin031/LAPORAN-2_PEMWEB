@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Laporan 2</title>
+    <style>
+        /* Mengatur semua elemen agar rata tengah */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center; /* teks di tengah */
+            background-color: #ffffff; /* background putih */
+        }
+
+        /* Judul utama */
+        h1 {
+            background-color: blue;
+            color: yellow;
+            padding: 10px;
+            font-size: 36px; /* besar font */
+            margin-bottom: 10px;
+        }
+
+        /* Subjudul NIM */
+        h2 {
+            color: blue;
+            font-size: 28px;
+            margin-top: 0;
+            margin-bottom: 30px;
+        }
+
+        /* Paragraf */
+        p {
+            text-align: justify; /* teks paragraf rata kanan-kiri */
+            margin: 0 auto 20px; /* tengah, dengan jarak bawah */
+            width: 80%; /* lebar 80% dari layar */
+            font-size: 18px;
+        }
+
+        /* Styling untuk teks yang ditebalkan */
+        b {
+            color: black;
+        }
+
+        /* Styling untuk <i> atau <em> */
+        i, em {
+            background-color: yellow;
+            font-style: italic;
+        }
+
+        /* Styling khusus untuk link */
+        a {
+            color: blue;
+            text-decoration: underline;
+            font-size: 20px;
+        }
+
+        /* Styling untuk teks awal */
+        .info {
+            font-weight: bold;
+            text-align: left;
+            margin-bottom: 20px;
+            width: 80%;
+            margin: 20px auto;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Keterangan laporan -->
+    <div class="info">
+        Ini adalah laporan ke 2 dari matakuliah pemrograman web
+    </div>
+
+    <!-- Judul utama -->
+    <h1>Angelin Anatasya Lantang</h1>
+
+    <!-- Subjudul NIM -->
+    <h2>202332050</h2>
+
+    <!-- Paragraf pertama -->
+    <p>
+        Lorem <i>ipsum</i> dolor sit amet consectetur adipisicing elit. Sed quod fuga magni ipsa ipsam atque? Sed vero, quasi nemo illo ea maiores vel itaque deserunt modi unde libero sunt debitis.
+    </p>
+
+    <!-- Paragraf kedua -->
+    <p>
+        Lorem ipsum dolor sit <em>amet</em> consectetur adipisicing elit. Suscipit est mollitia assumenda cum quisquam perferendis minima, unde fugit aspernatur itaque, doloribus excepturi officia voluptatum adipisci alias provident error ipsa expedita.
+    </p>
+
+    <!-- Link ke Youtube -->
+    <a href="https://youtube.com" target="_blank">Link menuju yutub</a>
+
+</body>
+</html>
